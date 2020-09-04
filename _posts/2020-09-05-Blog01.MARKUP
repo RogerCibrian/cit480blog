@@ -1,3 +1,9 @@
+---
+layout: post
+title:  "Welcome to Jekyll!"
+date:   2020-09-05 00:00:00 +0000
+categories: blogs
+---
 I haven't really written a blog for anything before so I hope this first attempt is entertaining and useful. Earlier in the week someone at work mentioned that printers are the bane of IT's existance but I think that title should go to ad blockers instead. 
 
 This week we were tasked with setting up a static site generator in either github pages or on our own host. Everything started off with the normal sunshine and rainbows it always does but quickly became a frustrating, caffeine fueled, mess of a github respository.
