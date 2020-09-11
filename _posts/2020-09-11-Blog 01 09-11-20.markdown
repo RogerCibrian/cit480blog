@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "Blog 01 09-11-20"
+date:   2020-09-11 00:00:00 +0000
+categories: blogs
+---
+I never understood the IT world’s fascination with Linux operating systems until taking the CIT classes I have at CSUN. The first computer I ever used was running Windows 95. I spent the rest of my childhood and early adult life using all the versions of Windows that came after. 
+
+During my sophomore year I decided to buy a MacBook Pro which ran MacOS, obviously. This was my first exposure to a non-windows machine, and I realized that there was a lot more out there than just Windows. Later that year I had to setup a few virtual machines running Windows Server 2008, Windows 10, and CentOS. 
+
+My first impressions on CentOS were: confusing, different, and complicated. My opinions quickly shifted after learning how most Linux operating systems work. I found it refreshing learning that all default files and folders had a simple but important purpose. System files were kept separate from user files and user profiles could be easily configured for specific tasks. 
+
+The biggest learning curve was interacting with an operating system through the terminal versus through a GUI. While there are GUIs available for most Linux operating systems, I have found that using the terminal has many more benefits including much more control and being sure of what the commands are going to change/do. 
+
+I think we should take a minute to really appreciate the level of control Linux operating systems give administrators and how different everything would be if Windows was the only option. 
