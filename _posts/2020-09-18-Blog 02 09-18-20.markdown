@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "Blog 02 09-18-20"
+date:   2020-09-18 00:00:00 +0000
+categories: blogs
+---
+Last week I talked about the greatness that is Linux, but I did not talk about the developments in other operating system’s default shells. 
+
+I have used PowerShell for a few projects in the last few weeks and I was pleasantly surprised by how easily that shell integrated with other shells and operating systems. I had to use the scp command to copy something from a Linux server over to my desktop for COMP 424 and I had no issues whatsoever. 
+
+I have used bash for most of my projects since sophomore year and never really gave PowerShell a chance until recently. I have really come to appreciate the object orientation that is integral to PowerShell and how easy it makes scripting. 
+
+As a result of how easy PowerShell is, my work life has gotten very efficient. What I once used GUIs and buttons to accomplish, I now use a few lines of codes to do. PowerShell has allowed me to turn 10-minute tasks into 30 second tasks that run in the background. That timesaving really adds up over doing the same thing 50+ times in one week. 
+
+While I still prefer bash I believe that PowerShell doesn’t get enough credit. 
+
+
