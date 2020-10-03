@@ -5,6 +5,9 @@ date:   2020-10-02 00:00:00 +0000
 categories: blogs
 ---
 Budgets in the IT world can sometimes be a massive constraint on the expectations that businesses set for their IT employees. In this week’s blog I am going to discuss a situation where budgetary concerns and allocations led to a very frustrating situation. 
+
 Recently, my department was tasked with replacing all our dated and worn tools for opening phones and computers. We were also tasked with replacing our flash drives that stored the company’s proprietary software for imaging computers. We started this task by cataloging the existing equipment, its purpose, and its condition. In total, we had about 200 different tools/ parts. About 25% of the existing equipment was worn or outdated. Our estimate for replacing the worn tools and parts was about 2000 dollars. We submitted our request and it was denied because it would have put us over budget for the quarter.
+
 The frustration my team and I felt in that moment was immense. The items we were ordering were necessary to continue doing our job properly, however, they did not seem important enough to upper management. We were told we had to cut the expense down to about $1000 this month and $1000 the next. We ended up ordering the more broken items first and then the semi-working items the next month. This resulted in poor quality repairs and longer repair times due to the inefficiency in our toolset. My team and I were asked why repair quality and times went in a negative direction and we were very quick to point out it was because of our outdated tools. 
+
 Management still did not approve our request for replacement equipment. This theme is common in many businesses; IT gets a part of the budget that is too small to do the tasks expected of the department. 
