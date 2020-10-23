@@ -5,7 +5,11 @@ date:   2020-10-23 00:00:00 +0000
 categories: blogs
 ---
 While this year has had a lot of negatives attached to it, one good thing is the advancement in computing hardware. 
+
 This last quarter of the year is brining three major PC hardware releases with it: AMD’s Zen 3 CPUs, AMD’s Big Navi GPUs, and NVIDIA’s 3000 series GPUs. These are extremely significant because of the level of competition each of these releases bring. 
+
 The CPU market has been largely dominated by Intel over the last decade resulting in a stagnation in CPU performance due to no competition existing. AMD’s latest release appears to be able to compete and even surpass Intel’s performance in multi-threaded and single-threaded workloads. This will spark a revival in competition over the next few release cycles for both companies which is beneficial for the consumer and for the processing world. Both companies will attempt to one up the other to capture more sales and market share.
+
 Similarly, to the CPU market, the GPU market has largely been dominated by NVIDIA over the last decade or so. While there is not much information available regarding the exact performance of AMD’s newest GPUs, AMD has confirmed they have something that can perform in the ballpark of NVIDIA’s higher end 3000 series GPUs which were a monstrous leap in performance from last years 2000 series GPUs. This newfound competition in the GPU market will cause a similar competition resulting in better performance and value over the next few release cycles. 
+
 This is extremely exciting news for the computing world because we will probably see some massive leaps in computing performance over the next few years. This will be beneficial for data processing and scientific research that requires massive amounts of computing power. 
