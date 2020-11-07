@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "Blog 09 11-06-20"
+date:   2020-11-06 00:00:00 +0000
+categories: blogs
+---
+In this week’s blog I’m going to cover a situation I experienced that really highlighted the importance of running thorough tests on updates/upgrades before release. 
+
+Earlier in the week the IT team at our corporate headquarters rolled out an update to our workstations overnight. The update was supposed to upgrade our ticket creation system to a new version. The update rolled out as planned and made its way onto every workstation in our building. When the first employee came into the building, he did his normal tasks of printing out a list of existing tickets, following up on closed tickets, and checking the status of any aging tickets. 
+
+The next employee rolled into the building a few hours later along with the general public since we open the building a few hours after the first employee gets in. It took about 15 minutes for that employee to figure out something was very, very wrong. Upon trying to login to our ticket creation system, he was greeted with a message saying, “Unable to connect to MySQL database…”. He tried to use different workstations, including the mobile ones that were to be used when our hardline connection went down, to no avail. The issue appeared to be affecting every workstation in the building. 
+
+Determined to get to the bottom of the issue that employee called our internal help desk. He was horrified to hear the following pre-recorded message: “We are aware of an outage to our ticket creation software. If your call is regarding this, please hang up and keep on eye on your company email for further instructions”. It turned out the update they rolled out disconnected every workstation in the company from the central MySQL database resulting in tickets not being able to be created. This lasted 4 hours until they were able to fully roll back the update.
+
+I learned a valuable lesson: Thoroughly test your updates before pushing them out… especially if its to a major system that is integral to everyday operations. I’m sure some employee somewhere got fired over this one…
