@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "Blog 10 11-13-20"
+date:   2020-11-13 00:00:00 +0000
+categories: blogs
+---
+In this week’s blog I’m going to discuss the horrors of unexpected windows updates.
+
+
+A few weeks ago, I was tasked with imaging a few POS terminals with an updated Windows 10 image. The new image came with a bunch of new software and drivers for an upcoming hardware update. I started the process at the end of our business day to not disrupt any transactions or customer interactions and let it run overnight. I came in the next morning and everything seemed to have gone ok. All the machines were up and running and it looked like none of the installations had failed or ran into any issues. 
+
+I started to reconfigure the included software and pointed it to our existing POS database hosted on a local windows server. This also went smoothly. At this point all I had to do was test the software to make sure it was still updating our database and not producing any errors. I ran a few transactions through and the logs of them made it onto our database without a hitch. I did the same thing on all three of our machines. This also went by smoothly and gave me a false sense of security.
+
+A few hours into the business day everything set itself on fire. All three of our terminals restarted themselves to finish windows updates during the busiest part of the day. A few of the cashiers ran into my office telling me that the computers all turned themselves off. Immediately I knew where I had gone wrong. I didn’t want to risk creating a bigger issue by powering down all the machines in the middle of updates so I decided it would be best to bring another, older, register to the front to be used while the others restarted. I quickly moved the workstation and connected it one of the monitors up front. This workstation was still in use, so I didn’t have to install any software or configure anything. 
+
+The updates finished and I immediately set the computers to not update during business hours. I learned a valuable lesson and my boss let me off easy since I was still pretty new to the job. I definitely won’t be making this mistake again. 
