@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "Blog 11 11-20-20"
+date:   2020-11-20 00:00:00 +0000
+categories: blogs
+---
+In this week’s blog I’m going to discuss the importance of understanding networking and a VPNs impact on location services for certain applications.
+
+Earlier in the week we had someone drop off a computer to be setup and have information moved to it from a few cloud backups and physical backups. The computer was a newer MacBook Pro, the cloud backups were from OneDrive and iCloud, and the physical backups were from a few old hard drives. We started the work like normal and setup the computer with the express/standard settings for MacOS. We finished all the updates, installed all the requested software, and started the transfer process from the physical backups. The hard drives were a bit on the older side, so they were pretty slow to transfer the data, however, it did finish after a few hours.
+
+Next, we signed into the customer’s Microsoft account to setup OneDrive and give him access to the information stored in his cloud backups. The customer wanted all his photos to be saved locally on the computer as well as on the cloud, so we downloaded copies of his photos to the computer. This took a while since we were having issues with our network speed that day. Lastly, we signed into the customer’s Apple ID and this is where our issue began. 
+
+Apple IDs can be configured to have two factor authentication which tells the user where a sign in attempt is coming from and gives the user a code to type into the device they are trying to sign in to in order to verify the user’s identity. This alert was triggered as soon as we attempted to sign in. We called the customer to ask him to allow the sign in attempt and to provide us with the two-factor key.
+
+One thing to note before I get to the next section is that our network is run through a VPN located at our headquarters in Minnesota. It’s run this way to allow “on-network” applications to run on company computers without having to route the connections through the internet externally. This makes it so certain applications can only be accessed while on-network and prevents access from external networks. 
+
+Back to the story: Our new employee called the customer, identified himself, and asked the customer to approve the sign in attempt. The customer allowed the attempt but didn’t give us the code stating that he saw the sign in attempt was from a computer in Minnesota, not one in Los Angeles where he had dropped his off. The customer asked why it said this and the new employee didn’t have an answer since he didn’t understand how/why our network used a VPN. The customer hung up and didn’t pick up any more of our calls. Instead, he drove down to our location and demanded to speak to the senior technician. The customer was insisting that we had sold his login information to someone in Minnesota and they were now were attempting to log into his iCloud account. The situation was extremely escalated, and the customer was threatening to call the police. 
+
+Eventually, our senior technician was able to explain why the notification was saying it was from Minnesota and even showed the customer the same notification on his phone. This diffused the situation, and the customer was very apologetic for getting so upset. We ended up explaining the VPN’s function and the consequences of its use to our new employee to prevent this sort of thing from happening again. 
+
