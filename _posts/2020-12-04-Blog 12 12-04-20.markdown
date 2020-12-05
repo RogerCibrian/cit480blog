@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "Blog 12 12-04-20"
+date:   2020-12-04 00:00:00 +0000
+categories: blogs
+---
+In this week’s blog I’m going to cover some logistical hurdles that I’ve experienced in the IT industry and some of the solutions to those hurdles.
+
+
+One of the more difficult challenges I’ve experienced is setting up workstations across different locations that require similar or the same user experiences. This can sometimes be achieved with something as simple as buying the same machines and installing the same software on all of them via images, but we don’t live in a perfect world, so this is not always doable. 
+
+Recently, I worked on a project spanning 4 different locations that required the same user experience across different workstations running different operating systems. In this case some workstations were running Windows 10 and some were running Mac OS X Catalina. Immediately after getting assigned this task I realized that my biggest hurdle would be getting software that’s designed to run on Windows only to run on the Mac OS machines. I decided that virtual machines would be a good solve here, however, that created another issue because the user experience would be different for the Mac OS users as they would have to launch virtual machine software to load their terminal while the Windows users would not. 
+
+To solve this, I created an image of Windows 10 that I installed to virtual machines on BOTH the Windows machines and Mac OS machines. These images contained the same startup programs which included the software required by our employees. I allocated the same resources to all virtual machines to try to keep the speed of the machines somewhat consistent. This solution killed two birds with one stone because by creating a virtual machine, I was able to separate the files created by the software used in the virtual machine from the files on the host operating system. This allowed our employees to save their files for our work software completely separately from other files. 
+
+This solution also worked well for some of our employees who weren’t as technically savvy as others because we just had to teach them to look for a specific icon on both Mac OS and Windows to launch their software needed for work. 
